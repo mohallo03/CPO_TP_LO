@@ -29,7 +29,7 @@ public class Calculator {
         Scanner sc ;
         sc = new Scanner(System.in);
         operateur = sc.nextInt() ;
-        if(1<operateur || operateur>5){
+        if(1>operateur || operateur>5){
             System.out.println("Valeur incorrecte");
             System.exit(0);
         }
