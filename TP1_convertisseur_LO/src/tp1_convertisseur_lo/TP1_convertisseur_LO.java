@@ -52,11 +52,8 @@ public class TP1_convertisseur_LO {
         System.out.println("\n 4) De Celcius vers Farenheit");
         System.out.println("\n 5) De Kelvin vers Farenheit");
         System.out.println("\n 6) De Farenheit vers Kelvin");
-        
-        Scanner sc1 ;
-        sc1 = new Scanner(System.in) ;
-        var n=sc1.nextInt();
-        System.out.println("\n"+n);
+      
+        int n=sc.nextInt();
         if(1>n || n>6){
             System.out.println("Valeur incorrecte");
             System.exit(0);
