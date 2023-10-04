@@ -1,7 +1,7 @@
 /*
  * TP1 Exercice 1
  * LO Mouhamadou
- * Septembre 2023
+ * Octobre 2023
  * Groupe A
  */
 package tp1_manipnombresint_lo;
