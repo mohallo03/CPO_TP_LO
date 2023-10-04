@@ -63,10 +63,10 @@ public class TP1_guessMyNumber_LO {
                 if(dif==4){
                     int chance = generateurAleat.nextInt(100) ;
                     if(chance<30){
-                        System.out.println("Trop petit !");
+                        System.out.println("Trop grand !");
                     }
                     else{
-                        System.out.println("Trop grand !");
+                        System.out.println("Trop petit !");
                     }
                 }
                 else{
@@ -83,10 +83,10 @@ public class TP1_guessMyNumber_LO {
                 if(dif==4){
                     int chance = generateurAleat.nextInt(100) ;
                     if(chance<30){
-                        System.out.println("Trop grand !");
+                        System.out.println("Trop petit !");
                     }
                     else{
-                        System.out.println("Trop petit !");
+                        System.out.println("Trop grand !");
                     }
                 }
                 else{
