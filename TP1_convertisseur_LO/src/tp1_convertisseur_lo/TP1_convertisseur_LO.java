@@ -45,13 +45,13 @@ public class TP1_convertisseur_LO {
         System.out.println("\n Bonjour, saisissez une valeur :");
         t=sc.nextDouble();
         
-        System.out.println("\n Saisissez la conversion que vous souhaiter effectuer :");
-        System.out.println("\n 1) De Celcius vers Kelvin");
-        System.out.println("\n 2) De Kelvin vers Celcius");
-        System.out.println("\n 3) De Farenheit vers Celcius");
-        System.out.println("\n 4) De Celcius vers Farenheit");
-        System.out.println("\n 5) De Kelvin vers Farenheit");
-        System.out.println("\n 6) De Farenheit vers Kelvin");
+        System.out.println(" Saisissez la conversion que vous souhaiter effectuer :");
+        System.out.println(" 1) De Celcius vers Kelvin");
+        System.out.println(" 2) De Kelvin vers Celcius");
+        System.out.println(" 3) De Farenheit vers Celcius");
+        System.out.println(" 4) De Celcius vers Farenheit");
+        System.out.println(" 5) De Kelvin vers Farenheit");
+        System.out.println(" 6) De Farenheit vers Kelvin");
       
         int n=sc.nextInt();
         if(1>n || n>6){
